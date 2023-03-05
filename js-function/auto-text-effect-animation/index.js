@@ -17,7 +17,7 @@ function updateText() {
     `;
 
   if (characterIndex === careers[careerIndex].length) {
-    careerIndex++;
+    careerIndex++;  
     characterIndex = 0;
   }
 
