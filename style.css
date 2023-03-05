@@ -1,0 +1,90 @@
+
+body{
+    background-image: url();
+    background: rgb(17, 16, 16);
+    font-family: cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin-top: 100px;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.header h2{
+    font-size: 36px;
+    margin-left: 15px;
+    color: gold
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list a{
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.list a li { 
+    color: black;
+
+}
+.list a:hover {
+    transform: scale(1.1); /* This increases the size of the list item on hover */
+}
+
+
+.list a:nth-child(1) {
+    background-color: lightblue;
+  }
+  
+  .list a:nth-child(2) {
+    background-color: lightgreen;
+  }
+  
+  .list a:nth-child(3) {
+    background-color: lightpink;
+  }
+  
+  .list a:nth-child(4) {
+    background-color: lightsalmon;
+  }
+  
+  .list a:nth-child(5) {
+    background-color: lightgray;
+  }
+  
+  .list a:nth-child(6) {
+    background-color: lavender;
+  }
